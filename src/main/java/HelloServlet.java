@@ -13,8 +13,9 @@ public class HelloServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("application/json");
         PrintWriter writer = resp.getWriter();
-        writer.println("1) Have a good day!");
-        writer.println("2) Have a good day!");
+
         writer.println("3) Have a good day!");
+        writer.println("2) Have a good day!");
+        writer.println("1) Have a good day!");
     }
 }
