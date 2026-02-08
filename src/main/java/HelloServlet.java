@@ -17,5 +17,6 @@ public class HelloServlet extends HttpServlet {
         String name = req.getParameter("my_name");
 
         writer.println("Hello, " + name);
+        writer.println("Have a good day!");
     }
 }
