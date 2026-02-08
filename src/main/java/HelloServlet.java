@@ -13,14 +13,6 @@ public class HelloServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("application/json");
         PrintWriter writer = resp.getWriter();
-
-        String name = req.getParameter("my_name");
-
-        writer.println("Hello, " + name);
         writer.println("Have a good day!");
-        writer.println("How are you?");
-        writer.println("d");
-        writer.print("what's your age?");
-        writer.println("d");
     }
 }
