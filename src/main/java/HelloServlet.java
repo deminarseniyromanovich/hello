@@ -21,5 +21,6 @@ public class HelloServlet extends HttpServlet {
         writer.println("How are you?");
         writer.println("d");
         writer.print("what's your age?");
+        writer.println("d");
     }
 }
